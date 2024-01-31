@@ -131,11 +131,11 @@ ul li span:hover {
 }
 
 
+
 @media screen and (max-width: 600px) {
   .todo-app {
     width: 100%;
     max-width: 380px;
-    background-color:yellow;
   }
 
   .row {
@@ -143,18 +143,30 @@ ul li span:hover {
     align-items: center;
     justify-content: space-around;
     background: #cfd0d1;
-    margin-right:20px;
     border-radius: 30px;
     padding-left: 20px;
+    margin-right: 40px;
     margin-bottom: 25px;
     box-shadow: 0 0 3px #000000;
   }
 
-  button{
+  button {
     box-shadow: 0 0 3px #ff5945;
+    padding: 5px 30px;
   }
-  
-  .input-Box{
-     padding-left: 30px; 
+  input {
+    padding: 5px;
+    padding-left: 65px;
   }
+
+  .todo-app{
+    padding: 31px 10px 55px;
+    margin: 150px auto 20px;
+  }
+
+  .container{
+    width: 140%;
+    min-height: 140vh;
+  }
+
 }
