@@ -143,6 +143,7 @@ ul li span:hover {
     align-items: center;
     justify-content: space-around;
     background: #cfd0d1;
+    margin-right:20px;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -151,5 +152,9 @@ ul li span:hover {
 
   button{
     box-shadow: 0 0 3px #ff5945;
+  }
+  
+  .input-Box{
+     padding-left: 30px; 
   }
 }
