@@ -135,6 +135,7 @@ ul li span:hover {
   .todo-app {
     width: 100%;
     max-width: 380px;
+    background-color:yellow;
   }
 
   .row {
